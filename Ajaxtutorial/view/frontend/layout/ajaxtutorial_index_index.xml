@@ -1,0 +1,15 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.x
+
+sd">
+    <head>
+        <title>Addition Using Ajax</title>
+    </head> 
+    <body>
+        <referenceContainer name="content">
+            <block class="Techone\Ajaxtutorial\Block\Index" name="calculation_index" 
+
+template="Techone_Ajaxtutorial::calculation.phtml" />
+        </referenceContainer>
+    </body>
+</page>
